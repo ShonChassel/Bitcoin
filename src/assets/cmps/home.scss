@@ -1,0 +1,54 @@
+.logo-container {
+    width: 132px;
+    height: 29px;
+    vertical-align: middle;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    .mainsummary {
+        padding-top: 150px;
+        max-width: 770px;
+        margin: 0 auto 45px;
+        font-size: 312.5%;
+        color: #1c1f30;
+    }
+    .rate {
+        color: green;
+        font-weight: 700;
+    }
+    .rate2 {
+        background-image: url(https://i-invdn-com.investing.com/newSiteIconsSprite_v42j.png);
+        background-position: -70px -478px;
+        display: inline-block;
+    width: 22px;
+    height: 21px;
+    margin: 0px 0px 0 0px;
+
+    }
+}
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        padding: 15px 25px;
+        color: #ff7e00;
+        background: #fff;
+        border: 1px solid #ff7e00;
+        cursor: pointer;
+        a {
+            color: #ff7e00;
+            background: #fff;
+            text-decoration: none;
+        }
+    }
+    button:not(:first-child) {
+        margin-left: 6px;
+    }
+}
