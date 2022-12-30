@@ -11,7 +11,7 @@ Bitcoin is a Digital wallet App.
 <br/>
 :link: Link to the live project: [Link](https://shonchassel.github.io/Bitcoin/#/)  
 <br/>
-<img src='airbxb.PNG'/>
+<img src='bitcoin-app.PNG'/>
 <br/>
 
 ## My Process
