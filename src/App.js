@@ -1,6 +1,6 @@
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
-import logo from './logo.svg';
+
 import './assets/global.scss';
 
 

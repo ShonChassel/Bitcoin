@@ -7,6 +7,7 @@ import { NavLink, withRouter } from "react-router-dom";
 import { UserMenuModal } from "./UserMenuModal";
 import { ContactFilter } from "./ContactFilter";
 import { loadContact, setFilterBy,onSearchOpen } from "../store/actions/contact.actions";
+// import logo from '../assets/imgs/logotop.svg';
 
 class _AppHeader extends Component {
     state = {
@@ -64,7 +65,7 @@ class _AppHeader extends Component {
                     <section className="logo-container">
                         <img
                             onClick={this.onBack}
-                            src="../imgs/logotop.svg"
+                            src="https://res.cloudinary.com/dirvusyaz/image/upload/v1672414168/logotop_osdlea.svg"
                         ></img>
                     </section>
                     {onSearch && (
